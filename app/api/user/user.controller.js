@@ -33,7 +33,7 @@ function responseWithResult(res, statusCode) {
   };
 }
 
-
+//get
 // Gets a list of Diagrams
 exports.index = function(req, res) {
   User.findAsync()
