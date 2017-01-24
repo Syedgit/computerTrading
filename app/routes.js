@@ -4,6 +4,7 @@ var path = require('path');
     module.exports = function(app) {
 
         app.use('/api/user', require('./api/user'));
+        app.use('/api/laptop', require('./api/laptop'));
         // app.get('*', function(req, res) {
         //     res.sendfile('./public/views/index.html'); // load our public/index.html file
         //    // res.sendFile(path.join(__dirname, ''../public/views/index.html'')); 

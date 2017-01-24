@@ -1,5 +1,22 @@
-<div class="jumbotron text-center">
+<!-- <div class="jumbotron text-center">
     <h1>Home Page 4 Life</h1>
 
     <p>{{ tagline }}</p>
+</div> -->
+<!-- <div class="parallax-container">
+      <div style="heigh:1000px; width:500px"parallax><img src="assets/images/dell.jpg"></div>
+</div> -->
+<div class="row">
+	<div class="col s2">
+		<div>
+			<ul class="sidebarNav">
+				<li ui-sref="home.desktop"><a>Desktop</a></li>
+				<li ui-sref="home.laptop"><a>Laptops</a></li>
+				<li ui-sref="home.monitor"><a>Monitors</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="col s10">
+		<div ui-view></div>
+	</div>
 </div>

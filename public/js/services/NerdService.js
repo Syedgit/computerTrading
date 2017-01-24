@@ -1,6 +1,6 @@
 // public/js/services/NerdService.js
-angular.module('NerdService', []).factory('Nerd', ['$http', function($http) {
-
+angular.module('computerTrading').factory(function($http) {
+'use strict';
     return {
         // call to get all nerds
         get : function() {
@@ -22,4 +22,4 @@ angular.module('NerdService', []).factory('Nerd', ['$http', function($http) {
         }
     }       
 
-}]);
+});
