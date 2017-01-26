@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
      <link rel="stylesheet" href="libs/materialize/dist/css/materialize.min.css">
     <link rel="stylesheet" href="styles/app.css"> <!-- custom styles -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 
     <!-- JS -->
    
@@ -32,11 +34,14 @@
         </ul>
     </nav>
     -->
-      <nav>
+    <div class="row">
+    <nav>
     <div class="nav-wrapper">
       <a ui-sref="home" class="brand-logo left">Computer Trading</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a ui-sref="inventory">Inventory</a></li>
+      <li><a ui-sref="laptop">Laptops</a></li>
+      <li><a ui-sref="desktop">desktops</a></li>
+      <li><a ui-sref="monitor">monitors</a></li>
        <li><a>Bulk Deals</a></li>
         <li><a>Policies</a></li>
          <li><a>About Us</a></li>
@@ -44,9 +49,37 @@
       </ul>
     </div>
   </nav>
+  </div>
 
     <!-- ANGULAR DYNAMIC CONTENT -->
     <div ui-view></div>
+
+         <footer class="page-footer">
+          <!-- <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div> -->
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">Computer Liquadator</a>
+            </div>
+          </div>
+        </footer>
+            
 
 </div>
  <script src="libs/jquery/dist/jquery.min.js"></script>
@@ -63,7 +96,9 @@
     <script src="js/controllers/laptopCtrl.js"></script>
     <script src="js/controllers/desktopCtrl.js"></script>
     <script src="js/controllers/monitorCtrl.js"></script>
+    <script src="js/controllers/contactCtrl.js"></script>
     <script src="js/services/NerdService.js"></script>
+    <script src="js/services/laptopService.js"></script>
     
     
 </body>

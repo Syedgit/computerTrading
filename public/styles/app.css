@@ -22,3 +22,39 @@
     background-color: #555;
     color: white;
 }
+
+.imageCircle-home {
+    display: block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+
+    -moz-border-radius: 50%; /* or 50% */
+    border-radius: 50%; /* or 50% */
+
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+i.icon-blue {
+    color: blue;
+}
+i.icon-orange {
+    color: red;
+}
+i.icon-green {
+    color: green;
+}
+.desktop-images {
+    height: 300px;
+    width: 300px;
+}
+p.homeText {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+.productImageBorder {
+    border: 1px solid grey; 
+    border-color: grey;
+}

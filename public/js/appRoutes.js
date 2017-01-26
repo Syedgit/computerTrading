@@ -19,17 +19,20 @@ angular.module('computerTrading').config(function($stateProvider, $urlRouterProv
     templateUrl:'views/inventory.html',
     controller:'InventoryController'
     }).
-    state('home.laptop',{
+    state('laptop',{
+      url:'/laptop',
       templateUrl:'views/laptop.html',
       controller:'LaptopController'
     })
     .
-    state('home.desktop',{
+    state('desktop',{
+       url:'/desktop',
       templateUrl:'views/desktop.html',
       controller:'DesktopController'
     })
     .
-    state('home.monitor',{
+    state('monitor',{
+       url:'/monitor',
       templateUrl:'views/monitor.html',
       controller:'MonitorController'
     });

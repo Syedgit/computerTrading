@@ -6,7 +6,9 @@ var LaptopSchema = new mongoose.Schema({
   name: String,
   ram:String,
   harddrive:String,
-  Brand: String,
+  brand: String,
+  price: String,
+  description: String
 
 });
 
