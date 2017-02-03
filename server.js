@@ -29,3 +29,12 @@ require('./app/routes')(app);
 
 // expose app           
 exports = module.exports = app;                         
+//1- Ya ayu Alazina aminu astiyunu bisabre wasalahwat Inallah mahisabreen.
+
+//2- quloon maroofun wa maghfiratun khairum min sadqatin iztabhoha izann wallah ganion aleem.
+
+//3- wa taizu mantasha wa tazilu mantasha * Baidaka alkhair > Inika ala kule shain qadeer > Laijul laila
+//   fi nahara wa laijul nahare fi lail > wa nahkrajul haya minal mayeta wa nahkrajul mayate minal haye > 
+//   farozoqo man tasha begair hisab. 
+//4 - wa kitabna aleham fiha anan nafsa bin nafse wal aina bil aine wal anfa bil anfe wal azona bil ozone 
+ //   wa sina bis sine
